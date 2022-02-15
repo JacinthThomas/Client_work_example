@@ -1,0 +1,6 @@
+.Name {
+    text-align: right; background-color: skyblue;color: blue;
+}
+
+.Name::after { background-color: crimson;
+}
