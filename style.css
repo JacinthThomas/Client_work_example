@@ -9,11 +9,8 @@
 }
 
 
-.p {
-    text-align: center;
-  border: none;display: block;}
-
 .right {
+    text-align: center;
     background-color: pink;
     position: absolute;
     right: 177px;
@@ -23,7 +20,13 @@
     padding: 10px;
   }
 
+.right:hover {
+    background-color: aquamarine;
+    border: aquamarine;
+}
+
   .left {
+    text-align: center;
     background-color: palevioletred;
     position: absolute;
     left: 130px;
@@ -33,12 +36,25 @@
     padding: 10px;
   }  
 
-  .center {
+.left:hover {
+    background-color: forestgreen;
+    border: forestgreen;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 25%; */
     background-color: fuchsia;
-    position: absolute;
+    position:absolute;
     right: 500px;
     width: 300px;
     height: 300px;
     border: 3px solid fuchsia;
     padding: 10px;
   }
+
+.center:hover{ 
+    background-color: lawngreen;
+    border: lawngreen;
+}
