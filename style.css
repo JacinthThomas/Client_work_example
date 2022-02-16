@@ -9,6 +9,7 @@
 }
 
 
+
 .right {
     text-align: center;
     background-color: pink;
@@ -59,6 +60,10 @@
     border: lawngreen;
 }
 
+.center:hover, .right:hover, .left:hover {
+    cursor:help;
+
+}
 .linkedin {background-color: red;
     text-align: center;
     color: aqua;
@@ -72,5 +77,11 @@
     padding: 10px;
     margin-top: 350px;  
     border-radius: 30px;  
+    url(https://www.linkedin.com/in/jacinth-thomas/);
 }
 
+.linkedin:hover{
+    cursor:pointer;
+    background-color: orange;
+    border: 5px dashed red;
+}
