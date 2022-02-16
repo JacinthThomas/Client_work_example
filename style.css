@@ -7,3 +7,38 @@
 
 .para { text-decoration: underline;
 }
+
+
+.p {
+    text-align: center;
+  border: none;display: block;}
+
+.right {
+    background-color: pink;
+    position: absolute;
+    right: 177px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid pink;
+    padding: 10px;
+  }
+
+  .left {
+    background-color: palevioletred;
+    position: absolute;
+    left: 130px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid palevioletred;
+    padding: 10px;
+  }  
+
+  .center {
+    background-color: fuchsia;
+    position: absolute;
+    right: 500px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid fuchsia;
+    padding: 10px;
+  }
